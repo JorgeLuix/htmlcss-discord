@@ -72,7 +72,7 @@ ul {
     align-items: center;
     padding: 0px 30px;
     text-decoration: none;
-    transition: all 0.3s ease 0s ;
+    transition: all 600ms ease;
 }
 .nav-items li a:hover {
     
@@ -227,4 +227,6 @@ footer {
     border: none;
     border-radius: 15px;
     text-decoration: none;
+    
 }
+ 
