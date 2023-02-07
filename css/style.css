@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primay-color: #ffffff;
+    --bg-section: #f6f6f6;
+    --bg-footer: #23272A;
+    --dark-text: #000000;
+    --bg-header: #2A5EE8;
+    --light-bg: #7289DA;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.body {
+    background-color: var(--primay-color);
+    font-family: 'Livvic', sans-serif;
+    
+    font-family: 'Noto Sans', sans-serif;
+}
+.debug {
+    border: 1px solid black;
+}
+
+
+.nav-items {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: flex-start;   
+}
+
+ul {
+    list-style: none;
+
+}
+
+
+.align-center {
+    align-items: center;
+}
+.text-center {
+    text-align: center;
+}
+.justify-center {
+    justify-content: center;
+}
+
+.button {
+    padding: 9px 15px;
+    background-color: var(--primay-color);
+    color: black;
+    border: none;
+    border-radius: 15px;
+}
+
+.nav-items li a {
+    color: var(--primay-color);
+    align-items: center;
+    padding: 0px 30px;
+    text-decoration: none;
+}
+.nav-items li a:hover {
+    color:#2A5EE8;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+.rana {
+    width: 80%;
+    margin: 0 5rem;
+}
+.section_1 {
+    padding: 10px;
+}
+
+h2{
+    font-size: 3.5rem;
+    padding-top: 1rem;
+}
+.psection_1{
+    margin-top: 1rem;
+}
+
+.even{
+    background-color: var(--bg-section);
+    
+}
+.reverse{
+    flex-direction: row-reverse;
+}
+
+header {
+    background-color: var(--bg-header);
+    
+}
+
+#hero {
+    background-image: url(../img/jumbo.png);
+    background-position: 0px;
+    background-size: cover;
+    min-height: 500px;
+    max-height: 1400px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contenuto {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: var(--primay-color);
+}
+
+.p_1 {
+    color: var(--primay-color);
+    font-size: 20px;
+}
+.btn {
+    padding: 10px 15px;
+    background-color: var(--bg-footer);
+    color: var(--primay-color);
+    border: none;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+
+
+footer {
+    background-color: var(--bg-footer);
+    color: var(--primay-color);
+}
+.btn_2 {
+    padding: 9px 15px;
+    background-color: var(--light-bg);
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
