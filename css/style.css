@@ -81,9 +81,6 @@ ul {
     width: 40%;
 }
 
-.font_sec {
-    
-}
 
 h2{
     font-size: 3.3rem;
@@ -102,6 +99,11 @@ h2{
 .img {
     width: 100%;
 }
+.star {
+    background-image: url(../img/stars.svg);
+    padding: 20px 20px;
+
+}
 .reverse{
     flex-direction: row-reverse;
 }
@@ -111,9 +113,6 @@ h2{
 .wave {
     height: 100px;
     background-image: url('../img/wave.svg');
-    
-
-
     filter: opacity(0.04);
     
 }
@@ -188,4 +187,5 @@ footer {
     color: white;
     border: none;
     border-radius: 15px;
+    text-decoration: none;
 }
