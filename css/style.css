@@ -80,17 +80,9 @@ ul {
 .right {
     width: 40%;
 }
-.rana {
-    
-
-}
-.section_1 {
-    
-   
-}
 
 .font_sec {
-    width: 80%;
+    
 }
 
 h2{
@@ -110,7 +102,9 @@ h2{
 .reverse{
     flex-direction: row-reverse;
 }
-
+.cover {
+    object-fit: cover;
+}
 .wave {
     height: 100px;
     background-image: url('../img/wave.svg');
