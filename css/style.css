@@ -99,6 +99,9 @@ h2{
     background-color: var(--bg-section);
     
 }
+.img {
+    width: 100%;
+}
 .reverse{
     flex-direction: row-reverse;
 }
