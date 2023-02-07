@@ -72,9 +72,14 @@ ul {
     align-items: center;
     padding: 0px 30px;
     text-decoration: none;
+    transition: all 0.3s ease 0s ;
 }
 .nav-items li a:hover {
-    color:#2A5EE8;
+    
+    
+}
+button:hover {
+    color: var(--light-bg);
 }
 
 .left {
@@ -190,6 +195,7 @@ h1 {
 }
 .titolo3 {
     font-size: 30px;
+    margin-bottom: 15px;
 }
 
 
@@ -198,6 +204,17 @@ footer {
     background-color: var(--bg-footer);
     color: var(--primay-color);
     margin-top: 3rem;
+}
+#icon{
+   margin-top: 15px;
+}
+
+.bandiera{
+    width: 8%;
+    padding-right: 3px;
+}
+.fa-brands{
+    padding: 5px;
 }
 
 .italia {
